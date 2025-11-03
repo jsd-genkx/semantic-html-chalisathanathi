@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign-In Form</title>
     </head>
-    <body>
-        <section class="sign in">
-        <form action="/sign-in-form/login.html" method="post">
+    <body align="center">
+        <main>
+          <section class="sign in">
+          <form action="/sign-in-form/login.html" method="post">
             <h1>Sign-In</h1>
             <br>
             <label for="username">Username: </label>
@@ -16,15 +17,14 @@
             <label for="password">Password: </label>
             <input type="password" name="password" id="password" minlength="8" maxlength="20" required>
             <br><br>
-            <input type="submit" value="Login">
-        </form>
-        </section>
+            <button type="submit">Login</button>
+          </form>
+          </section>
+        </main>
         <br>
-        <section class="signup">
-        <p><a href="signup.html">Sign up</a> if you don't have an account.</p>
-        </section>
-        <section class="reset pw">
-        <p>Forget your password? <a href="forget-password.html">Reset password</a></p>
-        </section>
+        <footer class="footer">
+            <p><a href="signup.html">Sign up</a> if you don't have an account.</p>
+            <p>Forget your password? <a href="forget-password.html">Reset password</a></p>
+        </footer>
     </body>
 </html>
